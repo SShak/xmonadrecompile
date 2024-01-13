@@ -1,6 +1,6 @@
-This file need to placed in /etc/pacman.d/hooks in your root directory.
-When upgrading the system haskell files may be updated and you will need to recompile xmonad before reboot or shutdown. If you do not xmonad may not start.
-This script will fource recomile Xmonad after a system upgrade.
+This file needs to placed in /etc/pacman.d/hooks in your root directory.
+When upgrading the system haskell files may be updated and you will need to recompile xmonad before reboot or shutdown. If you do not, xmonad may not start.
+This script will force recompile Xmonad after a system upgrade.
 
 You will also need to edit you /etc/pacman.conf file.
 Under General Options uncomment HookDir and set the file path to /etc/pacman.d/hooks/ if it is not alread set.
