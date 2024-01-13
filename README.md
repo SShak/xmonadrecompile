@@ -7,4 +7,4 @@ Under General Options uncomment HookDir and set the file path to /etc/pacman.d/h
 
 Now you don't need to worry about borking your system if you forget to recompile! 
 
-p.s. While you are in pacman.conf st your ParrallelDownloads = 5, because if you don't....what are you really doing with your life?
+p.s. While you are in pacman.conf set your ParrallelDownloads = 5, because if you don't....what are you really doing with your life?
