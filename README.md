@@ -6,3 +6,5 @@ You will also need to edit you /etc/pacman.conf file.
 Under General Options uncomment HookDir and set the file path to /etc/pacman.d/hooks/ if it is not alread set.
 
 Now you don't need to worry about borking your system if you forget to recompile! 
+
+p.s. While you are in pacman.conf st your ParrallelDownloads = 5, because if you don't....what are you really doing with your life?
